@@ -1,0 +1,441 @@
+body{
+    font-family: "Poppins", sans-serif;
+    color: #343434;
+    font-weight: 400;
+    background-color: #ffffff !important;
+  }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif !important;
+  }
+a:hover {
+    text-decoration: none;
+}
+.nav-item{
+    position: relative;
+  }
+.row>.about-img {
+   padding-right: 0 !important;    
+}
+.navbar a {
+    color: white;
+}
+.navbar-nav li {
+    padding: 8px 5px;
+}
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+}
+.home {
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+.homelayer {
+    background-color: rgba(0, 0, 0, 0.622);
+    align-items: center;
+}
+.layercontent {
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.layercontent h1 {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.typing::after{
+    content: "";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+}
+@keyframes typing{
+    0%  { content: "I Am |"; }
+    2%  { content: "I Am D|"; }
+    4%  { content: "I Am De|"; }
+    6%  { content: "I Am Dev|"; }
+    8%  { content: "I Am Deve|"; }
+    10% { content: "I Am Devel|"; }
+    12% { content: "I Am Develo|"; }
+    14% { content: "I Am Develop|"; }
+    16% { content: "I Am Develope|"; }
+    18% { content: "I Am Developer|"; }
+    20% { content: "I Am Develope|"; }
+    22% { content: "I Am Develop|"; }
+    24% { content: "I Am Develo|"; }
+    26% { content: "I Am Devel|"; }
+    28% { content: "I Am Deve|"; }
+    30% { content: "I Am Dev|"; }
+    32% { content: "I Am De|"; }
+    34% { content: "I Am D|"; }
+
+    36% { content: "I Am |"; }
+    38% { content: "I Am D|"; }
+    40% { content: "I Am De|"; }
+    42% { content: "I Am Des|"; }
+    44% { content: "I Am Desi|"; }
+    46% { content: "I Am Desin|"; }
+    48% { content: "I Am Desine|"; }
+    50% { content: "I Am Desiner|"; }
+    52% { content: "I Am Desine|"; }
+    54% { content: "I Am Desin |"; }
+    56% { content: "I Am Desi|"; }
+    58% { content: "I Am Des|"; }
+    60% { content: "I Am De|"; }
+    62% { content: "I Am D|"; }
+
+    64% { content: "I Am |"; }
+    65% { content: "I Am L|"; }
+    66% { content: "I Am La|"; }
+    67% { content: "I Am Lar|"; }
+    68% { content: "I Am Larr|"; }
+    69% { content: "I Am Larry|"; }
+    70% { content: "I Am Larry D|"; }
+    71% { content: "I Am Larry Da|"; }
+    73% { content: "I Am Larry Dan|"; }
+    75% { content: "I Am Larry Dani|"; }
+    77% { content: "I Am Larry Danie|"; }
+    79% { content: "I Am Larry Daniel|"; }
+    80% { content: "I Am Larry Daniels|"; }
+    82% { content: "I Am Larry Daniel|"; }
+    84% { content: "I Am Larry Danie|"; }
+    86% { content: "I Am Larry Dani|"; }
+    88% { content: "I Am Larry Dan|"; }
+    90% { content: "I Am Larry Da|"; }
+    92% { content: "I Am Larry D|"; }
+    94% { content: "I Am Larry |"; }
+    96% { content: "I Am Larr |"; }
+    97% { content: "I Am Lar |"; }
+    98% { content: "I Am La |"; }
+    99% { content: "I Am L |"; }
+    100% { content:"I Am |"; }
+
+}
+.home .social-icon a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #eee; 
+}
+.home .social-icon i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(8, 8, 8, 0.318); 
+}
+.about-img {
+    width: 100%;
+}
+.about .about-img:after {
+    content: "";
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left:-30px;
+    bottom: -30px;
+    background-image: url(imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.w-100 {
+    width: 100%!important;
+}
+
+.about-content h6 {
+    font-size: 15px;
+    color: #9aaaab;
+}
+.about-content .about-p{
+    color: #9aaaab;
+}
+
+.bar-word {
+    text-align: start;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.bar-percent {
+    text-align: end;
+    padding-right: 3px;
+}
+.btn1 {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 25px;
+    transition: 1s;
+}
+.btn1:hover {
+    background-color: transparent;
+    color: black;
+}
+.btn2 {
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    padding: 12px 25px;
+    text-align: center;
+    transition: 1s;
+}
+.btn2:hover {
+    background-color: black;
+    color: #fff;
+}
+ .title h3 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    z-index: 4;
+}
+ .title h3:after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    background-image: url(imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0%;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.Services-item{
+    margin-bottom: 20px;
+}
+.Services-item i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #9aaaab23;
+    transition: 1s ;
+}
+
+.Services-item:hover i{
+    background-color: black;
+    color: #fff;
+}
+.work .work-layer{
+    opacity: 0;
+    transition:  all 0.5s;
+}
+.work-list ul li a{
+    color: black;
+}
+.work .work-item2:hover .work-layer {
+    opacity: 1;
+    border: 10px solid #eee;
+
+}
+.work .work-item2:hover .work-text{
+    top: 0 !important;
+}
+.work .work-text{
+transition: all 0.5s;
+}
+.work .work-item2:hover  img {
+    
+transform: scale(1.1);
+}
+.work img {
+    transition: .5s ;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000 !important;
+    background-color: transparent !important; 
+}
+.nav-pills {
+--bs-nav-link-color: none !important;
+
+}
+ .work .nav{
+    --bs-nav-link-hover-color: none !important;
+ }
+.icon-area {
+    text-align: center;
+}
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators {
+    margin-bottom: 0 !important;
+    
+}
+.carousel-indicators [data-bs-target] {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.our-team {
+    background-color: #585454;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.our-team:hover .social {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+.img-area {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.img-area:hover img {
+    transform: scale(1.1);
+}
+.our-team .list-inline li {
+    padding: 0 5px;
+}
+.img-area img {
+    transition: all 0.4s ease 0s;
+}
+.img-area .social {
+    background-color: rgba(249, 249, 249, 0.834);
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: 0.7s;
+    transform: rotateY(180deg) scale(0.8, 0.8);
+    inset: 15px;
+}
+
+.img-area .social ul {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.img-area .social ul li a {
+    color: white;
+    background-color: #000;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.img-area .social ul li a:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.customers::after{
+    content: "";
+    animation-name: customers;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-weight: 800;
+    color: rgb(5, 5, 5);
+
+}
+@keyframes customers{
+    0%  { content: "126"; }
+    20%  { content: "122"; }
+    40%  { content: "56"; }
+    60%  { content: "458"; }
+    80%  { content: "300"; }
+    100% { content: "54"; }
+}
+.projects::after{
+    content: "";
+    animation-name: projects;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-weight: 800;
+    color: rgb(5, 5, 5);
+
+}
+@keyframes projects{
+    0%  { content: "365"; }
+    20%  { content: "129"; }
+    40%  { content: "952"; }
+    60%  { content: "475"; }
+    80%  { content: "300"; }
+    100% { content: "670"; }
+}
+.code::after{
+    content: "";
+    animation-name: code;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-weight: 800;
+    color: rgb(5, 5, 5);
+
+}
+@keyframes code{
+    0%  { content: "350"; }
+    20%  { content: "1722"; }
+    40%  { content: "8792"; }
+    60%  { content: "4584"; }
+    80%  { content: "260"; }
+    100% { content: "324"; }
+}
+.downloads::after{
+    content: "";
+    animation-name: downloads;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-weight: 800;
+    color: rgb(5, 5, 5);
+
+}
+@keyframes downloads{
+    0%  { content: "126"; }
+    20%  { content: "122"; }
+    40%  { content: "56"; }
+    60%  { content: "458"; }
+    80%  { content: "300"; }
+    100% { content: "54"; }
+}
+.score h6{
+    line-height: 1.2 !important;
+    color: #585454;
+}
+.contact-icon i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #9aaaab23;
+    transition: 1s;
+}
+.contact-icon:hover i {
+    background-color: black;
+    color: #fff;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.bg-secondary{
+    background: #f7f7f7 !important;
+} 
+ .contact .form-control{
+    background: #f4f4f4 !important;
+    border: none;
+ }
+p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 15px;
+  color: #748182;
+}
